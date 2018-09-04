@@ -4,6 +4,7 @@
     "src/**/*"
   ],
   "exclude": [
+    "archive"
   ],
   "compilerOptions": {
     /* Basic Options */

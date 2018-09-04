@@ -7,13 +7,15 @@ interface IPos {
 }
 
 let current: IPos = { x: 0, y: 0 };
+
 function setup() {
     createCanvas(600, 600);
-    rectMode(CENTER);
-
+    colorMode(HSB, 360, 100, 100, 100);
+    strokeWeight(1);
+    noStroke();
+    noLoop();
 }
 
 function draw() {
-    rect(100, 100, 100, 100);
-    rect(100, 300, 20, 20);
+    
 }
