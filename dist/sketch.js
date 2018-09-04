@@ -5,9 +5,12 @@ var current = { x: 0, y: 0 };
 function setup() {
     createCanvas(600, 600);
     rectMode(CENTER);
+    alert('aaa');
 }
 function draw() {
     rect(100, 100, 100, 100);
     rect(100, 300, 20, 20);
+    var test = "aaa";
+    console.log(test);
 }
 //# sourceMappingURL=sketch.js.map
