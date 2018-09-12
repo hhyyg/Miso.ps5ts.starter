@@ -5,7 +5,8 @@
     ],
     "jsRules": {},
     "rules": {
-        "no-reference": false
+        "no-reference": false,
+        "no-console": false
     },
     "rulesDirectory": []
 }
